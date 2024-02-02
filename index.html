@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ash-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+
+            color: black;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 10vh;
+            background-color: black;
+            border: 2px solid white;
+            color: white;
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 14px;
+            cursor: pointer;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(22, 228, 228);
+            font-size: 1.06rem;
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .first {
+
+            color: white;
+            font-size: 2rem;
+            /* width: 30vw;
+            height: 50vh; */
+            /* position: absolute; 
+            left: 12%;
+            bottom: 36%;  */
+        }
+
+        .first img {
+            max-width: 98vw;
+            margin: auto;
+            display: flex;
+         
+        }
+
+        .blue,
+        #element {
+            color: rgb(22, 228, 228);
+        }
+
+        .text-offwhite {
+            color: lightgrey;
+        }
+
+        #maintext {
+            position: absolute;
+            bottom: 65%;
+            left: 12%;
+
+        }
+
+        hr {
+            border: 1px solid aqua;
+
+        }
+
+        .second {
+            margin: 80px 80px;
+            height: 90vh;
+
+        }
+
+        .second h1 {
+            color: white;
+            /* text-align: center; */
+            font-size: 2 rem;
+        }
+
+        .second .box {
+            background-color: white;
+            width: 80vw;
+            height: 4px;
+            margin: 10% 0;
+            display: flex;
+
+        }
+
+        .second .vertical {
+            width: 2px;
+            height: 10vh;
+            background-color: white;
+            margin: 0px 100px;
+
+        }
+
+        .img-top {
+            width: 5vw;
+            position: relative;
+            top: -70px;
+            left: -28px;
+
+        }
+
+        .vertical {
+            color: white;
+        }
+
+        .vertical-title {
+            width: 12vw;
+            position: relative;
+            top: 25px;
+        }
+
+        .vertical-descrip {
+            color: rgb(141, 140, 140);
+            width: 12vw;
+            position: relative;
+            top: 40px;
+            font-size: 12px;
+        }
+
+        .footer {
+            background-color:rgb(41, 143, 143);
+            height: 20vh;
+            max-width: 96vw;
+            margin: auto;
+            
+            padding: 30px ;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        footer ul li{
+            list-style: none;
+        }
+        .footer > div{
+            width: 220px;
+        }
+        .text-center{
+            text-align: center;
+            color: aquamarine;
+            background-color: #32a89980 ;
+            
+           padding-bottom: 30px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ashika's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="/"> Home</a></li>
+                    <li> <a href="/">About</a></li>
+                    <li><a href="/"> Services </a> </li>
+                    <li> <a href="/"> Projects</a></li>
+                    <li><a href="/"> Contact Me</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <img src="devvv.jpg" alt="">
+            <div id="maintext"> Hi, <span class="blue"> Ashika</span> this side <br>
+                and
+                I'm a <br>
+                <span id="element"></span>
+            </div>
+
+        </section>
+        <hr>
+        <section class="second">
+            <span class="text-offwhite">What I have create from</span>
+            <h1>My Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="img-top" src="html.png" alt="html logo">
+                    <div class="vertical-title">
+                        HTML Developer <br>(2021-2022)</div>
+                    <div class="vertical-descrip">
+                        I have practiced html by notes and complete sections to know the markup language with the help
+                        of VS code and online classes.
+                    </div>
+                </div>
+                <div class="vertical"><img class="img-top" class="2" src="css.png" alt="css logo">
+                    <div class="vertical-title">
+                        CSS Developer <br>(2021-2022,JUNE)</div>
+                    <div class="vertical-descrip">
+                        I have learned property-value and how to apply them using CSS selectors with the help of VS code
+                        and Firefox browser styling.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top " class="3" src="js.png" alt="html logo">
+                    <div class="vertical-title">
+                        Js Developer <br>(2022-2023)</div>
+                    <div class="vertical-descrip">
+                        Providing Logic to the code is the hardest thing ,i have come through and it takes the utmost
+                        time . Practicing Js by using replit has been fun.
+                    </div>
+                </div>
+                <div class="vertical"><img class="img-top" src="projects.png" alt="html logo">
+                    <div class="vertical-title">
+                        Completed Projectsusing HTML,CSS,JS (2023-2024)</div>
+                    <div class="vertical-descrip">
+                        I have completed certain projects using html,css ,and js which helps me a lot for practical
+                        knowledge .As a well-known uote states, Practice makes a man perfect.
+                    </div>
+                </div>
+                <div class="vertical"><img class="img-top" src="react.png" alt="html logo">
+                    <div class="vertical-title">
+                        React Developer <br>(2021-2022)</div>
+                    <div class="vertical-descrip">
+                        I have practiced html by notes and complete sections to know the markup language with the help
+                        of VS code and online classes.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="a">
+                <h3>Ashika Developer Portfolio</h3>
+            </div>
+            <div class="b">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+
+            </div>
+            <div class="c">   <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+            </ul>
+</div>
+            <div class="d">   <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+            </ul>
+</div>
+
+
+
+
+        </div>
+        <div class="text-center">
+            Copright &#169 www.ashikaporfolio.com | All rights reserved
+         </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Desginer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
